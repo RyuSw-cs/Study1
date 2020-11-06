@@ -3,6 +3,106 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/joystick"
-    />
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.example.study_nov1_homework.MyView
+            android:id="@+id/mv"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:background="#FAF4C0" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/left"
+        android:layout_width="69dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="92dp"
+        android:onClick="mOnClick"
+        android:text="Left"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/up1"
+        android:layout_width="69dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginBottom="140dp"
+        android:onClick="mOnClick"
+        android:text="Up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/tleft"
+        android:layout_width="69dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="140dp"
+        android:text="T_Left"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bleft"
+        android:layout_width="69dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="44dp"
+        android:text="B_Left"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bright"
+        android:layout_width="69dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginBottom="44dp"
+        android:text="B_Right"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/tright"
+        android:layout_width="69dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginBottom="140dp"
+        android:text="T_Rigth"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/right"
+        android:layout_width="69dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginBottom="92dp"
+        android:text="Right"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/down"
+        android:layout_width="69dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginBottom="44dp"
+        android:text="Down"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
