@@ -48,7 +48,11 @@
         android:layout_height="37dp"
         android:layout_marginStart="88dp"
         android:layout_marginBottom="140dp"
+<<<<<<< HEAD
         android:onClick="onClick"
+=======
+        android:onClick="mOnClick"
+>>>>>>> 8c20582ae7e2a3dd9fb48382c4e24ecded811707
         android:text="T_Left"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -59,7 +63,11 @@
         android:layout_height="37dp"
         android:layout_marginStart="88dp"
         android:layout_marginBottom="44dp"
+<<<<<<< HEAD
         android:onClick="onClick"
+=======
+        android:onClick="mOnClick"
+>>>>>>> 8c20582ae7e2a3dd9fb48382c4e24ecded811707
         android:text="B_Left"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -70,7 +78,11 @@
         android:layout_height="37dp"
         android:layout_marginStart="248dp"
         android:layout_marginBottom="44dp"
+<<<<<<< HEAD
         android:onClick="onClick"
+=======
+        android:onClick="mOnClick"
+>>>>>>> 8c20582ae7e2a3dd9fb48382c4e24ecded811707
         android:text="B_Right"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -81,7 +93,11 @@
         android:layout_height="37dp"
         android:layout_marginStart="248dp"
         android:layout_marginBottom="140dp"
+<<<<<<< HEAD
         android:onClick="onClick"
+=======
+        android:onClick="mOnClick"
+>>>>>>> 8c20582ae7e2a3dd9fb48382c4e24ecded811707
         android:text="T_Rigth"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -92,7 +108,11 @@
         android:layout_height="37dp"
         android:layout_marginStart="248dp"
         android:layout_marginBottom="92dp"
+<<<<<<< HEAD
         android:onClick="onClick"
+=======
+        android:onClick="mOnClick"
+>>>>>>> 8c20582ae7e2a3dd9fb48382c4e24ecded811707
         android:text="Right"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -103,7 +123,11 @@
         android:layout_height="37dp"
         android:layout_marginStart="168dp"
         android:layout_marginBottom="44dp"
+<<<<<<< HEAD
         android:onClick="onClick"
+=======
+        android:onClick="mOnClick"
+>>>>>>> 8c20582ae7e2a3dd9fb48382c4e24ecded811707
         android:text="Down"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
