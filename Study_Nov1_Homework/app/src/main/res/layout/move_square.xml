@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="0dp"
@@ -21,14 +20,13 @@
             android:layout_height="450dp"
             android:background="#FAF4C0" />
     </LinearLayout>
-
     <Button
         android:id="@+id/left"
         android:layout_width="69dp"
         android:layout_height="37dp"
         android:layout_marginStart="88dp"
         android:layout_marginBottom="92dp"
-        android:onClick="mOnClick"
+        android:onClick="onClick"
         android:text="Left"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -39,7 +37,7 @@
         android:layout_height="37dp"
         android:layout_marginStart="168dp"
         android:layout_marginBottom="140dp"
-        android:onClick="mOnClick"
+        android:onClick="onClick"
         android:text="Up"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -50,6 +48,7 @@
         android:layout_height="37dp"
         android:layout_marginStart="88dp"
         android:layout_marginBottom="140dp"
+        android:onClick="onClick"
         android:text="T_Left"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -60,6 +59,7 @@
         android:layout_height="37dp"
         android:layout_marginStart="88dp"
         android:layout_marginBottom="44dp"
+        android:onClick="onClick"
         android:text="B_Left"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -70,6 +70,7 @@
         android:layout_height="37dp"
         android:layout_marginStart="248dp"
         android:layout_marginBottom="44dp"
+        android:onClick="onClick"
         android:text="B_Right"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -80,6 +81,7 @@
         android:layout_height="37dp"
         android:layout_marginStart="248dp"
         android:layout_marginBottom="140dp"
+        android:onClick="onClick"
         android:text="T_Rigth"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -90,16 +92,18 @@
         android:layout_height="37dp"
         android:layout_marginStart="248dp"
         android:layout_marginBottom="92dp"
+        android:onClick="onClick"
         android:text="Right"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/down"
+        android:id="@+id/donw1"
         android:layout_width="69dp"
         android:layout_height="37dp"
         android:layout_marginStart="168dp"
         android:layout_marginBottom="44dp"
+        android:onClick="onClick"
         android:text="Down"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
